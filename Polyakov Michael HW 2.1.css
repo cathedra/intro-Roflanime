@@ -1,0 +1,46 @@
+caption {
+    padding: 10px;
+}
+
+th {
+    padding: 10px;
+}
+
+
+table {
+    align-self: center;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    border: #028E9B;
+    border-style: dashed;
+    margin: auto;
+    margin-top: 15%;
+}
+
+
+td {
+    padding: 10px;
+}
+
+.usedcell {
+    text-decoration: line-through;
+}
+
+.usedweekendcell {
+    font-weight: bold;
+    text-decoration: line-through;
+}
+
+.prevmonthcell {
+    color: grey;
+}
+
+.currcell {
+    background-color: #FFAD00;
+    color: black;
+}
+
+.weekendcell {
+    font-weight: bold;
+}
+
