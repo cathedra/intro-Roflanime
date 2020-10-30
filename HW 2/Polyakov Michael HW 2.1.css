@@ -18,29 +18,40 @@ table {
 }
 
 
-td {
+div.usedcell > td {
+    text-decoration: line-through;
     padding: 10px;
 }
 
-.usedcell {
+div.usedweekendcell > td {
+    font-weight: bold;
+    padding: 10px;
     text-decoration: line-through;
 }
 
-.usedweekendcell {
-    font-weight: bold;
-    text-decoration: line-through;
+div.prevmonthcell > td{
+    color: grey;
+    padding: 10px;
 }
 
 .prevmonthcell {
     color: grey;
+    padding: 10px;
 }
 
 .currcell {
     background-color: #FFAD00;
     color: black;
+    padding: 10px;
 }
 
-.weekendcell {
+.weekendcell{
     font-weight: bold;
+    padding: 10px;
+}
+
+div.weekendcell > td{
+    font-weight: bold;
+    padding: 10px;
 }
 
